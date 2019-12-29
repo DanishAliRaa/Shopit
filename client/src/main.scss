@@ -1,0 +1,18 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+
+$theme-colors: (
+  "primary": #009e4a,
+  "danger": #022e17,
+  "light" : rgb(216, 228, 225),
+  "dark" : #248853,
+  "secondary": #014621e3,
+  
+);
+
+$border-radius: 1rem;
+
+// $theme-colors: map-remove($theme-colors, "success", "info", "danger");
+
+@import "node_modules/bootstrap/scss/bootstrap";
